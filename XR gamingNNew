@@ -1,0 +1,377 @@
+
+
+local newlookgui = Instance.new("ScreenGui")
+local GUInice = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local Button = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Shadow = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Button_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Shadow_2 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Button_3 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Shadow_3 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local Button_4 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Shadow_4 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local Button_5 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Shadow_5 = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local Button_6 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Shadow_6 = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local Button_7 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Shadow_7 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local close = Instance.new("ImageButton")
+local Button_8 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Shadow_8 = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local add_circle = Instance.new("ImageButton")
+
+newlookgui.Name = "new look gui"
+newlookgui.Parent = game.CoreGui
+
+GUInice.Name = "GUInice"
+GUInice.Parent = newlookgui
+GUInice.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GUInice.BorderColor3 = Color3.fromRGB(27, 42, 53)
+GUInice.BorderSizePixel = 0
+GUInice.Position = UDim2.new(0.212277412, 0, 0.181908548, 0)
+GUInice.Size = UDim2.new(0, 614, 0, 319)
+GUInice.Active = true
+GUInice.Draggable = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(48, 192, 188)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(248, 189, 50))}
+UIGradient.Parent = GUInice
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = GUInice
+
+Button.Name = "Button"
+Button.Parent = GUInice
+Button.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.0276872925, 0, 0.12382444, 0)
+Button.Size = UDim2.new(0, 170, 0, 43)
+Button.ZIndex = 2
+Button.Font = Enum.Font.GothamMedium
+Button.Text = "MM2"
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextSize = 30.000
+Button.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script'),true))()
+end)
+
+UICorner_2.CornerRadius = UDim.new(1, 0)
+UICorner_2.Parent = Button
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Button
+Shadow.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_3.CornerRadius = UDim.new(1, 0)
+UICorner_3.Parent = Shadow
+
+Button_2.Name = "Button"
+Button_2.Parent = GUInice
+Button_2.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button_2.BorderSizePixel = 0
+Button_2.Position = UDim2.new(0.0276872925, 0, 0.368338555, 0)
+Button_2.Size = UDim2.new(0, 170, 0, 43)
+Button_2.ZIndex = 2
+Button_2.Font = Enum.Font.GothamMedium
+Button_2.Text = "PSX"
+Button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_2.TextSize = 30.000
+Button_2.MouseButton1Down:Connect(function()
+	_G.Color = Color3.fromRGB(255, 255, 255)
+	loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
+end)
+
+UICorner_4.CornerRadius = UDim.new(1, 0)
+UICorner_4.Parent = Button_2
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = Button_2
+Shadow_2.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_5.CornerRadius = UDim.new(1, 0)
+UICorner_5.Parent = Shadow_2
+
+Button_3.Name = "Button"
+Button_3.Parent = GUInice
+Button_3.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button_3.BorderSizePixel = 0
+Button_3.Position = UDim2.new(0.363192171, 0, 0.362068951, 0)
+Button_3.Size = UDim2.new(0, 170, 0, 43)
+Button_3.ZIndex = 2
+Button_3.Font = Enum.Font.GothamMedium
+Button_3.Text = "Bedwars"
+Button_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_3.TextSize = 30.000
+Button_3.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+UICorner_6.CornerRadius = UDim.new(1, 0)
+UICorner_6.Parent = Button_3
+
+Shadow_3.Name = "Shadow"
+Shadow_3.Parent = Button_3
+Shadow_3.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_3.BorderSizePixel = 0
+Shadow_3.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_7.CornerRadius = UDim.new(1, 0)
+UICorner_7.Parent = Shadow_3
+
+Button_4.Name = "Button"
+Button_4.Parent = GUInice
+Button_4.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button_4.BorderSizePixel = 0
+Button_4.Position = UDim2.new(0.706840396, 0, 0.123824447, 0)
+Button_4.Size = UDim2.new(0, 170, 0, 43)
+Button_4.ZIndex = 2
+Button_4.Font = Enum.Font.GothamMedium
+Button_4.Text = "FNF"
+Button_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_4.TextSize = 30.000
+Button_4.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+
+UICorner_8.CornerRadius = UDim.new(1, 0)
+UICorner_8.Parent = Button_4
+
+Shadow_4.Name = "Shadow"
+Shadow_4.Parent = Button_4
+Shadow_4.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_4.BorderSizePixel = 0
+Shadow_4.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_9.CornerRadius = UDim.new(1, 0)
+UICorner_9.Parent = Shadow_4
+
+Button_5.Name = "Button"
+Button_5.Parent = GUInice
+Button_5.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button_5.BorderSizePixel = 0
+Button_5.Position = UDim2.new(0.361563534, 0, 0.123824432, 0)
+Button_5.Size = UDim2.new(0, 170, 0, 43)
+Button_5.ZIndex = 2
+Button_5.Font = Enum.Font.GothamMedium
+Button_5.Text = "Arsenal"
+Button_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_5.TextSize = 30.000
+Button_5.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+UICorner_10.CornerRadius = UDim.new(1, 0)
+UICorner_10.Parent = Button_5
+
+Shadow_5.Name = "Shadow"
+Shadow_5.Parent = Button_5
+Shadow_5.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_5.BorderSizePixel = 0
+Shadow_5.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_11.CornerRadius = UDim.new(1, 0)
+UICorner_11.Parent = Shadow_5
+
+Button_6.Name = "Button"
+Button_6.Parent = GUInice
+Button_6.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button_6.BorderSizePixel = 0
+Button_6.Position = UDim2.new(0.706840396, 0, 0.362068951, 0)
+Button_6.Size = UDim2.new(0, 170, 0, 43)
+Button_6.ZIndex = 2
+Button_6.Font = Enum.Font.GothamMedium
+Button_6.Text = "Infinite yield"
+Button_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_6.TextSize = 28.000
+Button_6.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/XRgaming/infinite-yield/XRgamingforgudSCRIPT)/infinite%20yield")()
+end)
+
+UICorner_12.CornerRadius = UDim.new(1, 0)
+UICorner_12.Parent = Button_6
+
+Shadow_6.Name = "Shadow"
+Shadow_6.Parent = Button_6
+Shadow_6.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_6.BorderSizePixel = 0
+Shadow_6.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_13.CornerRadius = UDim.new(1, 0)
+UICorner_13.Parent = Shadow_6
+
+TextLabel.Parent = GUInice
+TextLabel.BackgroundColor3 = Color3.fromRGB(67, 192, 175)
+TextLabel.BorderColor3 = Color3.fromRGB(67, 192, 175)
+TextLabel.Position = UDim2.new(-9.31322575e-10, 0, 0.00626959279, 0)
+TextLabel.Size = UDim2.new(0, 165, 0, 23)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Nighto"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 25.000
+
+UICorner_14.Parent = TextLabel
+
+TextLabel_2.Parent = GUInice
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(245, 189, 52)
+TextLabel_2.BorderColor3 = Color3.fromRGB(245, 189, 52)
+TextLabel_2.Position = UDim2.new(0.794788301, 0, 0.00626959233, 0)
+TextLabel_2.Size = UDim2.new(0, 126, 0, 23)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "This script is for you"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 25.000
+TextLabel_2.TextWrapped = true
+
+UICorner_15.Parent = TextLabel_2
+
+TextLabel_3.Parent = GUInice
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(180, 190, 97)
+TextLabel_3.BorderColor3 = Color3.fromRGB(180, 190, 97)
+TextLabel_3.Position = UDim2.new(0.361563504, 0, 0.00626959233, 0)
+TextLabel_3.Size = UDim2.new(0, 171, 0, 23)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "M to hide"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+UICorner_16.Parent = TextLabel_3
+
+Button_7.Name = "Button"
+Button_7.Parent = GUInice
+Button_7.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button_7.BorderSizePixel = 0
+Button_7.Position = UDim2.new(0.46091193, 0, 0.824451387, 0)
+Button_7.Size = UDim2.new(0, 50, 0, 43)
+Button_7.ZIndex = 2
+Button_7.Font = Enum.Font.GothamMedium
+Button_7.Text = ""
+Button_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_7.TextScaled = true
+Button_7.TextSize = 1.000
+Button_7.TextTransparency = 1.000
+Button_7.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(1, 0)
+UICorner_17.Parent = Button_7
+
+Shadow_7.Name = "Shadow"
+Shadow_7.Parent = Button_7
+Shadow_7.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_7.BorderSizePixel = 0
+Shadow_7.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_18.CornerRadius = UDim.new(1, 0)
+UICorner_18.Parent = Shadow_7
+
+close.Name = "close"
+close.Parent = Button_7
+close.BackgroundTransparency = 1.000
+close.Position = UDim2.new(0.315632641, 0, 0.300684243, 0)
+close.Size = UDim2.new(0, 18, 0, 20)
+close.ZIndex = 2
+close.Image = "rbxassetid://3926305904"
+close.ImageRectOffset = Vector2.new(284, 4)
+close.ImageRectSize = Vector2.new(24, 24)
+
+Button_8.Name = "Button"
+Button_8.Parent = newlookgui
+Button_8.BackgroundColor3 = Color3.fromRGB(77, 100, 150)
+Button_8.BorderSizePixel = 0
+Button_8.Position = UDim2.new(0.026710391, 0, 0.396620274, 0)
+Button_8.Size = UDim2.new(0, 51, 0, 42)
+Button_8.ZIndex = 2
+Button_8.Font = Enum.Font.GothamMedium
+Button_8.Text = ""
+Button_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_8.TextScaled = true
+Button_8.TextSize = 14.000
+Button_8.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(1, 0)
+UICorner_19.Parent = Button_8
+
+Shadow_8.Name = "Shadow"
+Shadow_8.Parent = Button_8
+Shadow_8.BackgroundColor3 = Color3.fromRGB(53, 69, 103)
+Shadow_8.BorderSizePixel = 0
+Shadow_8.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_20.CornerRadius = UDim.new(1, 0)
+UICorner_20.Parent = Shadow_8
+
+add_circle.Name = "add_circle"
+add_circle.Parent = Button_8
+add_circle.BackgroundTransparency = 1.000
+add_circle.Position = UDim2.new(0.158062339, 0, 0.176574245, 0)
+add_circle.Size = UDim2.new(0, 34, 0, 31)
+add_circle.ZIndex = 2
+add_circle.Image = "rbxassetid://3926307971"
+add_circle.ImageRectOffset = Vector2.new(364, 164)
+add_circle.ImageRectSize = Vector2.new(36, 36)
+
+local function PBYBL_fake_script() -- GUInice.LocalScript 
+	local script = Instance.new('LocalScript', GUInice)
+
+	player = game.Players.LocalPlayer
+	
+	player:GetMouse().KeyDown:Connect(function(key)
+		if key == "m" and script.Parent.Visible == false then
+			script.Parent.Visible = true
+		else
+			if key == "m" and script.Parent.Visible == true then
+				script.Parent.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(PBYBL_fake_script)()
+local function NYRRRZJ_fake_script() -- Button_7.LocalScript 
+	local script = Instance.new('LocalScript', Button_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(NYRRRZJ_fake_script)()
+local function EGNYUAJ_fake_script() -- Button_8.LocalScript 
+	local script = Instance.new('LocalScript', Button_8)
+
+	local frame = script.Parent.Parent.GUInice
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(EGNYUAJ_fake_script)()
